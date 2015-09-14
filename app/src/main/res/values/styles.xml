@@ -3,6 +3,28 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryDark">@color/green_700</item>
+        <item name="colorAccent">@color/orange_500</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryDark">@color/red_700</item>
+        <item name="colorAccent">@color/orange_500</item>
+    </style>
+
+    <style name="myBtnOval">
+        <item name="android:background">@drawable/bg_oval_btn</item>
+        <item name="android:textColor">@color/orange_500</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="myBtnCorner">
+        <item name="android:background">@drawable/bg_corner_btn</item>
+        <item name="android:textColor">@color/orange_500</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>
